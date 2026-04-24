@@ -1,0 +1,94 @@
+/* custom styles to go along with custom templates and shortcodes */
+#leadin-disconnected-banner {
+	display: none!important;
+}
+
+#borchers-archive .elementor-15433 div {
+	border: none!important;
+}
+
+#borchers-archive .elementor-pagination {
+	border-top: 1px solid #c9c9c9!important;
+    padding-top: 2%;
+}
+
+#news-events-blog-shortcode {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2%;
+}
+
+.borchers-custom-related-products article a div { 
+    border-bottom: 3px solid #0a58ca;
+}
+
+.borchers-custom-related-products article:hover {
+	box-shadow: 0 2px 3px #c3c3c3;
+}
+
+#borchers-product-template-left-column .elementor-widget-text-editor {
+	border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 8px;
+}
+
+
+/* custom styles for markets and applications page */
+
+#markets-applications-container,
+#markets-applications-container .e-con-inner,
+#markets-applications-container .e-con-inner > div,
+#markets-applications-container .e-loop-item > div {
+    padding: 0;
+}
+
+#markets-applications-container .e-con-inner div div div img {
+    border-bottom: 3px solid #0a58ca;
+}
+
+#markets-applications-container .e-loop-item {
+    transition: box-shadow .3s ease;
+}
+
+#markets-applications-container .e-loop-item:hover {
+    box-shadow: 0 .188rem .375rem rgba(0, 0, 0, .17);
+}
+
+.borchers-custom-class .elementor-loop-container .e-parent,
+.borchers-custom-class .elementor-loop-container .e-parent .e-con-inner,
+.borchers-custom-class .elementor-loop-container .e-child
+{
+    padding: 0;
+}
+
+
+.borchers-custom-class .elementor-loop-container .e-parent .e-con-inner {
+    justify-content: flex-start;
+}
+
+.borchers-custom-class .elementor-loop-container img {
+    max-height: 180px;
+    max-width: 360px;
+    min-height: 180px;
+    min-width: 360px;
+    border-bottom: 3px solid #0a58ca;
+}
+
+.borchers-custom-class .e-loop-item {
+    transition: box-shadow .3s ease;
+}
+
+.borchers-custom-class .e-loop-item:hover {
+    box-shadow: 0 .188rem .375rem rgba(0, 0, 0, .17);
+}
+
+.borchers-custom-class .elementor-loop-container .elementor-button-wrapper a {
+    padding-left: 12px!important;
+    padding-bottom: 12px!important;
+}
+
+header nav #ubermenu-nav-main-312-menu-1 li a {
+    transition: all .3s ease-in-out;
+}
+
+header nav #ubermenu-nav-main-312-menu-1 li a:hover {
+    color: #2187b4!important;
+}
